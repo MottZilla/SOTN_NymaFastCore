@@ -1,15 +1,15 @@
 This project alters the Nymashock core for Bizhawk to improve how Castlevania SotN (Usa) performs. It reduces
-slowdown, shortens load times, and expands available system memory from 2MB to 8MB. Intended for use with
-Bizhawk 2.8 but 2.9.1 should also work. Intended for use with the Randomizer ( sotn.io )
+slowdown, shortens load times, and expands available system memory from 2MB to 8MB. For use with BizHawk
+versions 2.8, 2.9.1, or 2.10. Intended for use with the Randomizer ( sotn.io )
 
 Instructions:
 First make a copy of your Bizhawk Folder as the new core should only run Castlevania SotN and not other PS1 games.
 Running other games might be possible but is not recommended. 
 
-shock.wbx is a replacement Nymashock core. You must rename or remove your original file which will be in
-your Bizhawk\DLL folder. It will be named shock.wbx.gz (Bizhawk 2.8) or shock.wbx.zst
+shock.wbx.gz and shock.wbx.zst are replacement Nymashock core files. You must rename or remove your original file
+which will be in your Bizhawk\DLL folder. BizHawk 2.8 uses shock.wbx.gz, newer versions use shock.wbx.zst
 
-Then place shock.wbx in the DLL folder.
+Then place the new shock.wbx core file in the DLL folder.
 
 Core Changes by SonicDreamcaster & MottZilla
 
